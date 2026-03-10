@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #ecca9e;
+  padding: 20px;
+  color: #750c8a;
+  margin-top: 50px;
+}
+
+form {
+  margin: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-left: 10px;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px; /* Arredondamento das bordas */
+  background: linear-gradient(145deg, #750c8a, #750c8a); /* Gradiente para 3D */
+  box-shadow: 0 6px 0 #2f0144;/* Sombras para profundidade */
+  color: #ecca9e;
+  transition: all 0.2s ease;
+  text-transform: bold;
+}
+
+button:hover {
+    background:  #be3bd8;
+}
+
+.button:active {
+  transform: translateY(4px); /* Simula pressão */
+  box-shadow: 0 2px 0 #b42acf, 0 4px 10px rgba(0,0,0,0.3);
+}
+
+h2, h3 {
+  color: #750c8a;
+  font-size: 18px;
+}
